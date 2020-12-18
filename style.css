@@ -1,0 +1,70 @@
+.main{
+    border: 2px solid black;
+    width: 509px;
+    margin: 0px auto;
+    margin-top: 80px;
+    
+}
+.screen{
+    background-color:rgba(165,165,100,0.6);
+    width: 99%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-color: black;
+    color: white;
+    font-size: 20px;
+}
+.clearbutton{
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    background-color: rgb(233, 233, 58);
+}
+.clearbutton:hover{
+    background-color: rgb(223, 194, 29);
+}
+.back{
+    width: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    background-color: rgb(233, 233, 58);
+}
+.back:hover{
+    background-color: rgb(223, 194, 29)
+}
+.mainbutton{
+    width: 124px;
+    padding: 20px;
+    
+    font-size: 20px;
+    /* padding-right: 60px; */
+}
+
+
+
+#integer{
+    background-color: black;
+    color: white;
+}
+#integer:hover{
+    background-color: rgb(105, 101, 101);
+}
+
+
+#operator{
+    background-color:#07182f;
+    color: white;
+}
+#operator:hover{
+    background-color: rgb(52, 52, 190);
+}
+
+
+#equalto{
+    background-color:rgb(74, 160, 74);
+}
+#equalto:hover{
+    background-color:rgb(57, 109, 57) ;
+}

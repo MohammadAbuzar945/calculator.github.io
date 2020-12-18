@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Calculator -->
+
+<div class="main">
+    <div>
+        <p style="text-align: center; font-size: 18px; font-weight: bold;">Calculator By Mohammad Abuzar</p>
+    </div>
+    <div>
+        <input id="result" class="screen" type="text">
+    </div>
+    <div style="background-color: rgb(233, 233, 58);">
+        <button  class="clearbutton" onclick="clearbutton('0')">AC</button>
+        <button class="back" onclick="back('Del')">Del</button>
+    </div >
+    <div style="background-color: #07182f;">
+        <button id="operator" class="mainbutton" onclick="number('(')">(</button>
+        <button id="operator" class="mainbutton" onclick="number(')')">)</button>
+        <button id="operator" class="mainbutton" onclick="number('/')">/</button>
+        <button id="operator" class="mainbutton" onclick="number('%')">%</button>
+    </div>
+    <div style="background-color: #07182f;">
+        <button id="integer" class="mainbutton" onclick="number('7')">7</button>
+        <button id="integer" class="mainbutton" onclick="number('8')">8</button>
+        <button id="integer" class="mainbutton" onclick="number('9')">9</button>
+        <button id="operator" class="mainbutton"  onclick="number('*')">x</button>
+    </div>
+    <div style="background-color: #07182f;">
+        <button id="integer" class="mainbutton" onclick="number('4')">4</button>
+        <button id="integer" class="mainbutton" onclick="number('5')">5</button>
+        <button id="integer" class="mainbutton" onclick="number('6')">6</button>
+        <button id="operator"  class="mainbutton" onclick="number('-')">-</button>
+    </div>
+    <div style="background-color: #07182f;">
+        <button id="integer" class="mainbutton" onclick="number('1')">1</button>
+        <button id="integer" class="mainbutton" onclick="number('2')">2</button>
+        <button id="integer" class="mainbutton" onclick="number('3')">3</button>
+        <button id="operator" class="mainbutton" onclick="number('+')">+</button>
+    </div>
+    <div style="background-color: #07182f;">
+        <button id="integer" class="mainbutton" onclick="number('0')">0</button>
+        <button id="integer" class="mainbutton" onclick="number('00')">00</button>
+        <button id="integer" class="mainbutton" onclick="number('.')">.</button>
+        <button id="equalto" class="mainbutton" onclick="getresult('=')">=</button>
+    </div>
+</div>
+
+</body>
+<script src="app.js"></script>
+</html>
